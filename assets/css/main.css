@@ -88,6 +88,10 @@ body{
 .buttons{
     display: flex;
 }
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
 /* Small screen */
 @media only screen and (max-width:600px){
     .main{
@@ -118,9 +122,14 @@ body{
         width: 100vw;
         justify-content: center;
     }
-    .container img{
+    .right{
         max-width: 100%;
         max-height: 25vh;
-        /* object-fit: cover; */
+    }
+    .container{
+        /* flex-shrink: 0; */
+        width: 100%;
+        /* height: 25vh; */
+        height: auto;
     }
 }
