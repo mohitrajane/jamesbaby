@@ -19,7 +19,7 @@
                 <p class="main-content">Photographer/FilmMaker Currently residing in Ernakulam, India. Finding new trails<br> James Baby</p>
                 <div class="buttons">
                     <a class="btn" href = "https://drive.google.com/file/d/15FIQqi5WGK4K7S42GvZ3OoZo-s1WDzW3/view?usp=drivesdk">Presets</a>
-                    <a class="btn" href = "#">Work</a>
+                    <a class="btn" href = "#work">Work</a>
                     <a class="btn" href = "#feedback">Biz enquiry</a>
                 </div>
             </div>
@@ -55,7 +55,43 @@
             <a class="close" href="#">X</a>
             <p class="title">Business Enquiry</p>
             <div class="content">
-                
+                <form action="mailto:mhit98@gmail.com" enctype="text/plain">
+                    <div style="display: flex; flex-direction: column;width: 100%;align-items: left;justify-content: center;padding: 1rem 0;">
+                        <span style="padding-bottom: 0.5rem;font-weight: lighter;">Name</span>
+                        <input type="text" style="width:50%;height: 1.5rem;scroll-padding-right: 2rem; justify-items: center;">
+                    </div>
+                    <div style="display: flex; flex-direction: column;width: 100%;align-items: left;justify-content: center;padding: 1rem 0;">
+                        <span style="padding-bottom: 0.5rem;font-weight: lighter;">Email id</span>
+                        <input type="text" style="width:50%;height: 1.5rem;scroll-padding-right: 2rem; justify-items: center;">
+                    </div>
+                    <div style="display: flex; flex-direction: column;width: 100%;align-items: left;justify-content: center;padding: 1rem 0;">
+                        <span style="padding-bottom: 0.5rem;font-weight: lighter;">Subject</span>
+                        <input name="Subject" type="text" style="width:50%;height: 1.5rem;scroll-padding-right: 2rem; justify-items: center;">
+                    </div>
+                    <div style="display: flex; flex-direction: column;width: 100%;align-items: left;justify-content: center;padding: 1rem 0;">
+                        <span style="padding-bottom: 0.5rem;font-weight: lighter;">Message</span>
+                        <input name="body" type="text" style="width:50%;height: 5rem;scroll-padding-right: 2rem; justify-items: center;">
+                    </div>
+                    <button type="submit" value="Send" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="work">
+        <div class="box">
+            <a class="close" href="#">X</a>
+            <p class="title">WORKS</p>
+            <div class="content work">
+                <div class="d-flex">
+                    <!-- style="display: flex;" -->
+                    <img class="image-work" src="assets/images/work_1.jpg">
+                    <img class="image-work" src="assets/images/work_2.jpg">
+                </div>
+                <div class="d-flex" > 
+                    <!-- style="display: flex;" -->
+                    <img class="image-work" src="assets/images/work_3.jpg">
+                    <img class="image-work" src="assets/images/work_4.jpg">
+                </div>
             </div>
         </div>
     </div>
